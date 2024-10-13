@@ -129,7 +129,6 @@ ROOT_SIZE = f"{ROOT_WIDTH}x{ROOT_HEIGHT}"
 # image path section
 BACKGROUND_IMAGE_PATH = "assets/images/background.jpg"
 SUN_IMAGE_PATH = "assets/images/sun.png"
-CLOUD_IMAGE_PATH = "assets/images/cloud.png"
 RAIN_IMAGE_PATH = "assets/images/cloud_and_rain.png"
 
 # hexadecimal color tuples
@@ -159,17 +158,13 @@ background_photo = ImageTk.PhotoImage(background_img)
 sun_img = Image.open(SUN_IMAGE_PATH)
 sun_photo = ImageTk.PhotoImage(sun_img)
 
-# cloud image
-cloud_img = Image.open(CLOUD_IMAGE_PATH)
-cloud_photo = ImageTk.PhotoImage(cloud_img)
-
 # rain image
 rain_img = Image.open(RAIN_IMAGE_PATH)
 rain_photo = ImageTk.PhotoImage(rain_img)
 
 # backgound image label
 background_label = Label(root, image=background_photo)
-background_label.pack()
+background_label.place(x=-150, y=-190)
 
 # data fatching message label
 message_label = Label(root, text=None, bg=None, fg=None)
@@ -177,31 +172,31 @@ message_label.place(x=0, y=0)
 
 # city name
 city_name = Label(root, text=f" {data[pk]["name"]} ", font=("Arial Bold", 30), fg=DEFAULT_FONT_COLOR)
-city_name.place(x=340, y=150)
+city_name.place(x=310, y=150)
 
 # current time
 current_time_label = Label(root, text=strftime(" %d.%m.%Y "), font=("Arial Bold", 12), fg=DEFAULT_FONT_COLOR)
-current_time_label.place(x=435, y=195)
+current_time_label.place(x=410, y=195)
 
 # condition image
 condition_image = Label(root, image=None)
-condition_image.place(x=382, y=242)
+condition_image.place(x=350, y=242)
 
 # condition temperature
 condition_temperature = Label(root, text=f" {data[pk]["temp"]} ", font=("Arial Bold", 30), fg=DEFAULT_FONT_COLOR)
-condition_temperature.place(x=390, y=350)
+condition_temperature.place(x=360, y=350)
 
 # condition temperature metric
 condition_temperature_metric = Label(root, text="°C", font=("Arial Bold", 15), fg=DEFAULT_FONT_COLOR)
-condition_temperature_metric.place(x=450, y=353)
+condition_temperature_metric.place(x=420, y=353)
 
 # wind label
 wind_label = Label(root, text=None, font=("Arial Bold", 25), fg=DEFAULT_FONT_COLOR)
-wind_label.place(x=375, y=420)
+wind_label.place(x=343, y=420)
 
 # change current city to previous
 previous_city_button = Button(root, text=" < ", font=("Arial Bold", 15), fg=DEFAULT_FONT_COLOR, command=lambda: previous_city())
-previous_city_button.place(x=200, y=155)
+previous_city_button.place(x=140, y=155)
 
 # change current city to next
 next_city_button = Button(root, text=" > ",  font=("Arial Bold", 15), fg=DEFAULT_FONT_COLOR, command=lambda: next_city())
@@ -213,7 +208,6 @@ global_update()
 # conditions section
 # if there is any data (data fetched successfully)
 if data is not None:
-	print(data_successfully_fetched_message)
 	message_label.config(text=data_successfully_fetched_message, bg=BLACK, fg=GREEN)
 	message_label.after(15000, message_label.destroy)
 

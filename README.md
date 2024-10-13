@@ -11,3 +11,4 @@
 # Frontend screenshots:
 ![screenshot](https://github.com/user-attachments/assets/81f47149-22d7-4b2e-a198-4c040d7584b4)
 ![screenshot1](https://github.com/user-attachments/assets/8ea74e8c-3028-4bde-bd01-840a7f46397b)
+"# Python_FullstackWeatherDesktopApplication" 
