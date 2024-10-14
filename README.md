@@ -12,7 +12,7 @@
 6) Go To The "../Frontend" Folder And Execute The "main.pyw".
 
 7) Go To The Web Browser And Enter Your Local IPv4 Address Or "[https://localhost:8000](http://localhost:8000/)".
-8) To Access To The Admin Panel Add: "/admin" On Top Of Previous Local IPv4 Address "[https://localhost:8000](http://localhost:8000/)", Result Wolud Be: "https://localhost:8000/admin".
+8) To Access To The Admin Panel Add: "/admin" On Top Of Previous Local IPv4 Address "[https://localhost:8000](http://localhost:8000/)", Result Wolud Be: "[https://localhost:8000/admin](http://127.0.0.1:8000/admin/)".
 9) Username: "admin", Password: "admin"...
 
 # Backend screenshots:
