@@ -12,8 +12,8 @@
 6) Go To The "../Frontend" Folder And Execute The "main.pyw".
 
 # Backend screenshots:
-![screenshot](https://github.com/user-attachments/assets/e118461c-d5f0-48bb-859c-4c6148a0b117)
-![screenshot1](https://github.com/user-attachments/assets/ac4bdb5d-2a65-4682-b7c3-3bae6331645d)
+![screenshot](https://github.com/user-attachments/assets/a1ea405d-00d8-457e-9ee7-264726c121c5)
+![screenshot1](https://github.com/user-attachments/assets/d580e20d-19ee-44db-a1b7-a7ce7e743374)
 
 # Frontend screenshots:
 ![screenshot](https://github.com/user-attachments/assets/662030ff-bbd1-4322-886c-23bfb50f1ed8)
