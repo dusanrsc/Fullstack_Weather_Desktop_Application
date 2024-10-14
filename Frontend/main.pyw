@@ -63,7 +63,7 @@ def global_update():
 		city_name.after(50, city_update)
 
 	# update weather condition image
-	def weather_condition_image():
+	def weather_condition_image_update():
 
 		# weather condition image
 		# if condition of city is sunny render sun image 
@@ -81,7 +81,7 @@ def global_update():
 			condition_temperature.config(fg=DEFAULT_FONT_COLOR)
 
 		# update data after
-		condition_temperature.after(50, weather_condition_image)
+		condition_temperature.after(50, weather_condition_image_update)
 
 	# update condition temperature data
 	def condition_temperature_update():
@@ -109,7 +109,7 @@ def global_update():
 
 	# calling all inner update functions section
 	city_update()
-	weather_condition_image()
+	weather_condition_image_update()
 	condition_temperature_update()
 	wind_update()
 
@@ -120,7 +120,7 @@ __tag__ = "@dusanrsc"
 __by__ = "Dusan Rosic"
 
 # CONSTANT section
-TITLE = "Full Stack Weather Desktop Application"
+TITLE = "Fullstack Weather Desktop Application"
 
 ROOT_WIDTH = "800"
 ROOT_HEIGHT = "600"
