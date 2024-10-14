@@ -16,8 +16,8 @@
 9) Username: "admin", Password: "admin"...
 
 # Backend screenshots:
-![screenshot](https://github.com/user-attachments/assets/a1ea405d-00d8-457e-9ee7-264726c121c5)
-![screenshot1](https://github.com/user-attachments/assets/d580e20d-19ee-44db-a1b7-a7ce7e743374)
+![screenshot](https://github.com/user-attachments/assets/bfa76d10-ea0b-4306-ba88-24602cea178b)
+![screenshot1](https://github.com/user-attachments/assets/28ddecfe-aa63-4562-938d-e0ecaa07b5b2)
 
 # Frontend screenshots:
 ![screenshot](https://github.com/user-attachments/assets/662030ff-bbd1-4322-886c-23bfb50f1ed8)
