@@ -12,7 +12,7 @@ def get_data(request):
 
 @api_view(["POST"])
 def add_data(request):
-	serializer = CitySerializer(data=reques.data)
+	serializer = CitySerializer(data=request.data)
 	if serializer.is_valid():
 		serializer.save()
 	return Response(serializer.data)
